@@ -1,10 +1,41 @@
+.progress{
+ height: 30px;
+}
+.progress-bar{
+    padding-top: 7px;
+}
+.about-photo a{
+    border-radius: 50%;
+    font-size: 15px;
+}
+.about-photo a:nth-child(4){
+ background:#4f7dd4;  
+     font-size: 22px;
+      padding: 5px 12px;
+}
+.about-photo a:nth-child(5){
+ background:#dc422b; 
+ padding: 8px 12px;
+ font-size: 17px;
+}
+.about-photo a:nth-child(6){
+ background:#5bceff;    
+}
+.about-photo a:nth-child(7){
+ background:#20a5d7;    
+}
+
+
+
 @media screen and (min-width:768px) and (max-width:991px){
     .container{
         width: 85%;
     }
+
 }
 @media screen and (max-width:767px){
     .container{
         width: 90%;
     }
+
 }

@@ -1,0 +1,35 @@
+.flex-between{
+    display: flex;
+    justify-content:space-between;
+        margin: 0;
+}
+.col-3{
+    width: 30%;
+    padding-left: 15px;
+}
+.col-7{
+    width: 70%;
+    padding-right:15px;
+}
+.mg-0{
+    margin: 0;
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .flex-between{
+        flex-direction:  column-reverse;
+        width: 100%;
+    }
+    .col-3, .col-7{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .flex-between{
+        flex-direction:  column-reverse;
+        width: 100%;
+    }
+    .col-3, .col-7{
+        width: 100%;
+    }
+}

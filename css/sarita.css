@@ -3,20 +3,19 @@ a:hover{
     text-decoration: none;
 }
 .main1-portfolio{
-    padding-top: 57px;
     background:#2ecc71;
 }
 .text-main1{
     display: flex;
     justify-content:space-between;
     align-items:flex-end;
-    padding: 40px 0 ;
+    padding: 50px 0 ;
 }
-.text-main1 .text-portfolio:first-child{
+.text-portfolio1{
     width: 70%;
 }
-.text-main1 .text-portfolio:nth-child(2){
-    width: calc(100% - 71%);
+.text-portfolio2{
+    width:30%;
     display: flex;
     justify-content: flex-end;
 }
@@ -55,6 +54,7 @@ a:hover{
     overflow: hidden;
 
 }
+
 @media screen and (min-width:768px) and (max-width:991px){
     .container{
         width: 85%;
@@ -63,9 +63,15 @@ a:hover{
         flex-direction: column; 
         flex-wrap:wrap;
     }
-    .text-portfolio{
-        width: 100% !important;
-    }
+    .text-portfolio1{
+    width: 100%;
+    flex-direction: column;
+}
+.text-portfolio2{
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+}
     .img img{
     width: 100%;
     height: 20rem;
@@ -74,16 +80,23 @@ a:hover{
 }
 @media screen and (max-width:767px){
     .container{
-        width: 90%;
+        width: 95%;
     }
     .text-main1{
         flex-direction: column; 
         flex-wrap:wrap;
     }
-    .text-portfolio, .text-main1 {
-        width: 95%;
-    }
+    .text-portfolio1{
+    width: 100%;
+    flex-direction: column;
+}
+.text-portfolio2{
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+}
     .img img{
     width: 100%;
     height: 13rem;
     }
+}
