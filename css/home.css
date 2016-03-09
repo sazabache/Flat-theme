@@ -1,0 +1,60 @@
+
+/*section*/
+
+#main-slider {
+  position: relative;
+}
+#main-slider .carousel h2 {
+  font-size: 36px;
+}
+
+#main-slider .carousel .item {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 600px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
+#main-slider .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+#main-slider .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+
+.item-a{
+		background-image: url(../images/slider/bg1.jpg);
+}
+.item-b{
+	 background-image: url(../images/slider/bg2.jpg);
+}
+.item-c{
+	 background-image: url(../images/slider/bg3.jpg);
+}
+#main-slider .carousel h2 {
+    font-size: 36px;
+}
+
+@media (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 1900px) {
+
+
+	}
