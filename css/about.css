@@ -11,13 +11,12 @@
 
 .about-photo a:nth-child(4){
  background:#4f7dd4;  
-     font-size: 22px;
-      padding: 5px 12px;
+ padding-right:15px;
+ padding-left: 15px;
 }
 .about-photo a:nth-child(5){
  background:#dc422b; 
- padding: 8px 12px;
- font-size: 17px;
+
 }
 .about-photo a:nth-child(6){
  background:#5bceff;    
@@ -26,8 +25,8 @@
  background:#20a5d7;    
 }
 .about-photo a span{
-    height: 10px;
-    width: 10px;
+    height: 25px;
+    width:25px;
     color:white;
 }
 
