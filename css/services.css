@@ -3,18 +3,25 @@
 	justify-content:space-between;
     width: 32%;
 }
+.title-serv h5{
+    font-weight: 500;
+    font-size: 17px;
+}
 .icono{
-	width: 55px;
+	width: 70px;
+	margin-top: 20px;
 }
 .detail{
-	width: calc(100% - 60px);
-	font-size: 12px;
-	    color: #4f6173;
+	width: calc(100% - 80px);
+	font-size: 15px;
+	 color: #4f6173;
 }
 .icono i{
     color: white;
-    padding: 27% 28%;
-    background:#4f6173;
+    height: 50px;
+    width: 50px;
+    background:#939393;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 25px;
+    padding: 27% 29%;
 }
