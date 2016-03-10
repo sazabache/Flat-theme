@@ -72,7 +72,7 @@ header ul{
     color: #bdc3c7;
     background-color: #34495e !important;
 }
-a {
+#bottom a, footer a{
     color: #bdc3c7;
     text-decoration: none;
 }
