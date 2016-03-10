@@ -57,7 +57,8 @@ a:hover{
 
 @media screen and (min-width:768px) and (max-width:991px){
     .container{
-        width: 85%;
+        width: 100%;
+        padding: 0;
     }
     .text-main1{
         flex-direction: column; 
@@ -66,21 +67,24 @@ a:hover{
     .text-portfolio1{
     width: 100%;
     flex-direction: column;
-}
-.text-portfolio2{
+    padding-left: 15px;
+    }
+    .text-portfolio2{
     width:80%;
     display: flex;
     justify-content: flex-end;
-}
+    padding-right: 15px;
+    }
     .img img{
     width: 100%;
     height: 20rem;
-}
+    }
     
 }
 @media screen and (max-width:767px){
     .container{
-        width: 95%;
+        width: 100%;
+        padding: 0;
     }
     .text-main1{
         flex-direction: column; 
@@ -89,11 +93,13 @@ a:hover{
     .text-portfolio1{
     width: 100%;
     flex-direction: column;
+    padding-left: 15px;
 }
 .text-portfolio2{
     width:80%;
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
     .img img{
     width: 100%;
